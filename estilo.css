@@ -1,0 +1,122 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    margin: 0%;
+}
+
+footer{
+    background-color: rgb(75, 75, 75);
+    font-size: 1rem;
+    padding: 12px 0px;
+}
+
+
+nav{
+    margin-bottom: -28px;
+}
+
+nav > a{
+    background-color: rgb(75, 75, 75);
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-style: bold;
+    padding: 20px 40px;
+    margin: 0px -5px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: rgb(200, 200, 200);
+    transition-duration: 0.5s;
+}
+
+.banner{
+    background-image: url(http://a3fsolar.com.br/images/energia-solar-2019-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner > div{
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.banner > div > h1,h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 2px;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-weight: normal;
+    font-size: 1.25rem;
+}
+
+main > h2{
+    background-color: red;
+    margin: 0%;
+    padding: 20px;
+    width: 100%;
+}
+
+.energias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    font-style: bold;
+    transition-duration: 0.5s;
+}
+
+.energias > div{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.solar{
+    background-image: url(https://i.pinimg.com/originals/5b/b7/d7/5bb7d7aad88b4ac0c95dae608210a659.png); 
+}
+
+
+.eolica{
+    background-image: url(https://sitesustentavel.com.br/wp-content/uploads/2019/05/sh_energia-eolica_759730900.jpg);  
+}
+
+
+.hidra{
+    background-image: url(https://static.significados.com.br/foto/energia-hidreletrica-fb.jpg);
+}
+
+.nuclear{
+    background-image: url( https://network.grupoabril.com.br/wp-content/uploads/sites/4/2016/12/energia-nuclear1.jpg);
+}
+
+.energias > div:hover{
+    color:red;
+    filter: brightness(150%);
+    transition-duration: 0.5s;
+
+}
+
